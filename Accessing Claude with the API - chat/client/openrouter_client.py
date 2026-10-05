@@ -38,9 +38,9 @@ class AbstractOpenRouterChat(ABC):
     def print_openrouter_response(self, userMsg) -> None:
         ...
         
-    @abstractmethod
-    def initialize_chat():
-        ...
+    # @abstractmethod
+    # def initialize_chat():
+    #     ...
 
     def add_message(self, role: Role, text):
         message: dict = {"role": role.value, "content": text}

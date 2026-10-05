@@ -5,7 +5,7 @@ from typing import ClassVar
 @dataclass(frozen=True)
 class Item:
     id: int = field(default=0, init=False)
-    name: str = ""
+    name: str
     description: str = ""
 
     __index: ClassVar[int] = 0

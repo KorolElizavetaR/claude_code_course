@@ -19,7 +19,7 @@ def create_item(dto: ItemDto) -> list:
 def get_items():
     return paginate(items)
 
-@app.get("/items/{item_id}")
+@app.get("/items/{item_id}",response_model=Item)
 def get_item(item_id: int)->Item:
     for item in items:
         if item.id == item_id:
