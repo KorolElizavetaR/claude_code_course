@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function to validate AWS S3 bucket names (must start with 's' or 'b', contain only lowercase letters, digits, hyphens, and dots, and have a maximum length of 63 characters)"
+  },
+  {
+    "task": "Transform a list of AWS service configurations into a structured JSON object with keys: service, operation, and parameters"
+  },
+  {
+    "task": "Create a regular expression pattern that matches AWS IAM policy strings containing the keyword 'dynamodb'"
+  }
+]
